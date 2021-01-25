@@ -33,7 +33,7 @@ question_answer = os.environ['ANSWER']  # 安全提问答案
 def t00ls_login(u_name, u_pass, q_num, q_ans):
     """
     t00ls 登录函数
-    :param u_name: 用户名
+    :param u_name: 用户1名
     :param u_pass: 密码的 md5 值 32 位小写
     :param q_num: 安全提问类型
     :param q_ans: 安全提问答案
